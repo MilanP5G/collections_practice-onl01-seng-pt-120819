@@ -19,11 +19,11 @@ def reverse_array(array)
   array.reverse
 end 
 
-def kesha_maker
+def kesha_maker(array)
   i = 0 
  
- while i < collection.length do
-   yield(collection[i])
+ while i < array.length do
+   yield(array[i])
    i += 1
  end
  
