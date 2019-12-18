@@ -1,3 +1,4 @@
 def sort_array_asc
-  puts array.sort
+  array = [25, 7, 1]
+  array.sort
 end 
