@@ -1,5 +1,3 @@
 def sort_array_asc
-  array.sort
-end
-array
+  puts array.sort
 end 
