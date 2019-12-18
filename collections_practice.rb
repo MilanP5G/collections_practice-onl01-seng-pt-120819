@@ -31,7 +31,7 @@ def find_a(array)
   
   new_array = []
   
-  array.find {|word| return new_array << word.start_with?("a")}
+  array.include? {|word| return new_array << word.start_with?("a")}
 end
 
 
