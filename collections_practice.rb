@@ -42,13 +42,12 @@ end
 def add_s(array)
   
   array.each.collect do |element| 
-   if element == 1
+   if element == array[1]
      element
    else
      element << "s"
    end
      
-  
 end
 
 
