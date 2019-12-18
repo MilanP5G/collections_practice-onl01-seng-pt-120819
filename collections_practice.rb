@@ -41,7 +41,7 @@ end
 
 def add_s(array)
   
-  array.each.collect {|element| element << "s"}
+  array.each.collect {|element| element[0, 2, 3] << "s"}
   
 end
 
