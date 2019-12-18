@@ -1,3 +1,5 @@
 def sort_array_asc
-  return array.sort
+  array.sort
 end
+array
+end 
