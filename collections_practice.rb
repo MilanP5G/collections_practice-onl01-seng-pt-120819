@@ -29,8 +29,8 @@ end
 
 def find_a(array)
   
-  array.detect {|arr| arr.start_with?("a")}
-  return array
+  array.detect {|arr| return arr.start_with?("a")}
+  
 end
 
 
