@@ -29,7 +29,7 @@ end
 
 def find_a(array)
   
-  array.include? {|word| word.start_with?("a")}
+  array.include?(word) {|word| word.start_with?("a")}
   
 end
 
