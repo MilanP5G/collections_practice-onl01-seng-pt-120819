@@ -41,7 +41,7 @@ end
 
 def add_s(array)
   
-  array.except("feet").each_with_index.collect {|element, index| element << "s" }
+  array.except("feet").each_with_index {|element, index| element << "s" }
   
 end
 
