@@ -20,7 +20,13 @@ def reverse_array(array)
 end 
 
 def kesha_maker
-  
+  i = 0 
+ 
+ while i < collection.length do
+   yield(collection[i])
+   i += 1
+ end
+ 
 end 
 
 
