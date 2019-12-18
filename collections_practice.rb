@@ -23,7 +23,7 @@ def kesha_maker(array)
   i = 0 
  
  while i < array.length do
-   array.sub /3.char/, "$"
+   
    i += 1
  end
  
