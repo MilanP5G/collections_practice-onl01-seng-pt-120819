@@ -42,10 +42,10 @@ end
 def add_s(array)
   
   array.each_with_index.collect do |element, index| 
-   if element == 0
-     element << "s"
+   if element == 1
+     element
    else
-     element 
+     element << "s"
    end
      
   
