@@ -29,7 +29,9 @@ end
 
 def find_a(array)
   
-  array.find {|word| return word.start_with?("a")}
+  new_array = []
+  
+  array.find {|word| new_array << word.start_with?("a")}
   
 end
 
