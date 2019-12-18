@@ -45,6 +45,8 @@ def add_s(array)
    if element == 0, 2, 3
      element << "s"
    else
+     element 
+ end
      
   
 end
