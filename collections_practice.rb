@@ -20,13 +20,16 @@ def reverse_array(array)
 end 
 
 def kesha_maker(array)
+  
   new_array = [] 
   
   array.each {|name| new_array << name[2] = "$"}
  
 end 
 
-
+def find_a(array)
+  array.detect.start_with?(a) {|a| a}
+end
 
 
 
