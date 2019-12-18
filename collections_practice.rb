@@ -29,7 +29,7 @@ end
 
 def find_a(array)
   
-  array.detect {|arr| return arr.start_with?("a")}
+  array.detect {|word| return word.start_with?("a")}
   
 end
 
