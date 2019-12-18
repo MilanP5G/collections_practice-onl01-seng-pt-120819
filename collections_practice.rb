@@ -41,11 +41,11 @@ end
 
 def add_s(array)
   
-  array.each.collect do |element| 
+  array.each_with_index.collect do |element, index| 
    if element == array[1]
      element
    else
-     element << "s"
+     element + "s"
    end
      
 end
